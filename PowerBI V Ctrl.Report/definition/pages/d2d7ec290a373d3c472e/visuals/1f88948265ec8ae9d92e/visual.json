@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "dd5c9989639c403a4c42",
+  "name": "1f88948265ec8ae9d92e",
   "position": {
     "x": 216.60531697341514,
     "y": 117.13701431492842,
@@ -62,14 +62,14 @@
                           "Entity": "financials"
                         }
                       },
-                      "Property": "Gross Sales"
+                      "Property": "Discounts"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(financials.Gross Sales)",
-              "nativeQueryRef": "Sum of Gross Sales"
+              "queryRef": "Sum(financials.Discounts)",
+              "nativeQueryRef": "Sum of Discounts"
             }
           ]
         }
@@ -86,7 +86,7 @@
                         "Entity": "financials"
                       }
                     },
-                    "Property": "Gross Sales"
+                    "Property": "Discounts"
                   }
                 },
                 "Function": 0
@@ -133,7 +133,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Gross Sales'"
+                  "Value": "'Discount'"
                 }
               }
             }
@@ -146,7 +146,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "e194f438205803361270",
+        "name": "4f8a2f1ad0601578a378",
         "field": {
           "Column": {
             "Expression": {
@@ -160,7 +160,7 @@
         "type": "Categorical"
       },
       {
-        "name": "065ec31d945a070d3eb5",
+        "name": "2b4164d408d0b040b2e0",
         "field": {
           "Column": {
             "Expression": {
@@ -174,7 +174,7 @@
         "type": "Categorical"
       },
       {
-        "name": "fd4b836567960c2e9a47",
+        "name": "dd0766150a599cb566ad",
         "field": {
           "Aggregation": {
             "Expression": {
@@ -184,7 +184,7 @@
                     "Entity": "financials"
                   }
                 },
-                "Property": "Gross Sales"
+                "Property": "Discounts"
               }
             },
             "Function": 0
